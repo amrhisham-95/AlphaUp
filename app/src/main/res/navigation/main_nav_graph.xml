@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/welcomingFragment">
+
+    <fragment
+        android:id="@+id/welcomingFragment"
+        android:name="com.example.alphaup.fragments.WelcomingFragment"
+        android:label="WelcomingFragment"
+        tools:layout="@layout/fragment_welcoming">
+        <action
+            android:id="@+id/action_welcomingFragment_to_signInAndSignUpFragment"
+            app:destination="@id/signInAndSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInAndSignUpFragment"
+        android:name="com.example.alphaup.fragments.SignInAndSignUpFragment"
+        android:label="SignInAndSignUpFragment"
+        tools:layout="@layout/fragment_sign_in_and_sign_up">
+        <action
+            android:id="@+id/action_signInAndSignUpFragment_to_signUpWithEmailAddressFragment"
+            app:destination="@id/signUpWithEmailAddressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpWithEmailAddressFragment"
+        android:name="com.example.alphaup.fragments.SignUpWithEmailAddressFragment"
+        android:label="SignUpWithEmailAddressFragment"
+        tools:layout="@layout/fragment_sign_up_with_email_address">
+        <action
+            android:id="@+id/action_signUpWithEmailAddressFragment_to_signInAndSignUpFragment"
+            app:destination="@id/signInAndSignUpFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AlphaUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="startingimageview" translatable="false">startingImageView</string>
+    <string name="aboutusText">We are the exclusive agent for Alpha fitness clothing Our goal is to be more attractive to customers for super professionalism and the spread of products in the Middle East to facilitate Getting the perfect body to become a bigger society Practicing sports at any time and any place with technology Electrical stimulation where it\'s a safe technique promotes growth, Identify, tighten muscles, lose weight and stimulate the cycle Bloody</string>
+    <string name="objectives">Believing in the importance of sport in the life of the individual and society We took the initiative to provide our products in the Middle East, and provide a service After-sales to help our community members who seek To improve their physical fitness and therefore mental as Sport has a big role in improving the psychological state if it is continued</string>
+    <string name="wyeSports">Exercise in all its forms is one of the most important and effective ways to ensure the maintenance of physical and mental health, as there are many benefits of sports on the psychological and physical levels, the most important of which is reducing the percentage of fat in the body, and increasing muscle mass, And maintain the ideal weight. Sleep enough, get rid of insomnia, get the energy the body needs, open the appetite, eat healthy, and avoid smoking. Providing a healthy life, through which happiness, satisfaction and contentment are achieved</string>
+    <string name="electromyalicstimulationlayout">It is a mechanism that stimulates muscle contraction using electrical impulses. Interest in electrical muscle stimulation has increased in the few years Past for many reasons, including: The possibility of using it as a tool in strength training For healthy people and athletes; and as a test tool to assess neurological function or muscularly in the body; and as a post-workout recovery tool for athletes. Generates The device impulses and sends them to the body through electrodes placed on The skin is near the muscles to be alerted.In general, The electrodes are in the form of small pieces that can be attached to the skin.The impulses mimic the action potential coming from the electrical nervous system, and cause the muscles to contract. Sports scientists have referred to electrical muscle stimulation As a complementary means of athletic training, they published the results of research that examined the effect of this method.</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="or" translatable="false">Or</string>
+    <string name="skip">Skip</string>
+    <string name="signUp_fragment">Sign Up</string>
+    <string name="back">Back</string>
+    <string name="products">Products</string>
+    <string name="buy_what_you_want">Buy what you want</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

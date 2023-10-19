@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph2.xml"
+    app:startDestination="@id/productsFragment">
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.example.alphaup.fragments.ProductsFragment"
+        android:label="ProductsFragment"
+        tools:layout="@layout/fragment_products">
+        <action
+            android:id="@+id/action_productsFragment_to_activeFragment"
+            app:destination="@id/activeFragment" />
+        <action
+            android:id="@+id/action_productsFragment_to_aspireFragment"
+            app:destination="@id/aspireFragment" />
+        <action
+            android:id="@+id/action_productsFragment_to_aspireLiteFragment"
+            app:destination="@id/aspireLiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/activeFragment"
+        android:name="com.example.alphaup.fragments.ActiveFragment"
+        android:label="ActiveFragment"
+        tools:layout="@layout/fragment_active">
+        <action
+            android:id="@+id/action_activeFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aspireLiteFragment"
+        android:name="com.example.alphaup.fragments.AspireLiteFragment"
+        android:label="AspireLiteFragment"
+        tools:layout="@layout/fragment_aspirelite">
+        <action
+            android:id="@+id/action_aspireLiteFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aspireFragment"
+        android:name="com.example.alphaup.fragments.AspireFragment"
+        android:label="AspireFragment"
+        tools:layout="@layout/fragment_aspire">
+        <action
+            android:id="@+id/action_aspireFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+    </fragment>
+</navigation>
